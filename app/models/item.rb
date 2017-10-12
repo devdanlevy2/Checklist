@@ -1,4 +1,4 @@
-class Item < ApplicationRecord
+class Item < ActiveRecord::Base
   belongs_to :user
 
   def completed?
